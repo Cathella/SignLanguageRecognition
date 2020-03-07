@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background: black;
+  color: #cccccc;
+  height: 70vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  margin-top: 12%;
+}
+
+#contribute {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 4% auto;
+}
+
+p.title {
+  font-weight: 700;
+  margin-right: 2%;
+  color: #cccccc;
+}
+
+.btn {
+  color: black;
+  background: goldenrod;
+  text-decoration: none;
+  padding: 1% 2%;
+  border-radius: 4px;
+}
+
+.btn i {
+  margin-left: 1%;
+}
+
+header a,
+#sect a,
+footer a {
+  color: goldenrod;
+}
+
+#about {
+  padding: 4% 2%;
+  height: 40vh;
+}
+
+#about h2 {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+#about p {
+  line-height: 1.5;
+}
+
+#sect {
+  display: flex;
+  height: 60vh;
+}
+
+#sect div {
+  width: 25%;
+  padding: 4% 2%;
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4%;
+  margin-bottom: 7%;
+}
+
+#info li,
+#data li,
+#issue li {
+  list-style: square;
+  line-height: 2;
+  margin-left: 10%;
+}
+
+#info a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  padding: 1% 0;
+}
